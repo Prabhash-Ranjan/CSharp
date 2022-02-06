@@ -1,0 +1,31 @@
+/* 
+Program to find the sum of digits of given number
+*/
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+ 
+namespace Basics
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n, sum = 0, r;
+            Console.WriteLine("Enter a Number : ");
+            n= int.Parse(Console.ReadLine());
+            while (n != 0)
+            {
+                r = n % 10;
+                n = n / 10;
+                sum = sum + r;
+            }
+            Console.WriteLine("Sum of Digits of the Number : "+sum);
+            Console.ReadLine();
+ 
+        }
+    }
+ 
+ ]
