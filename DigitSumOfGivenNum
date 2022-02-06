@@ -1,5 +1,5 @@
 /* 
-Program to find the sum of digits of given number
+*Program to find the sum of digits of given number
 */
 
 using System;
@@ -27,5 +27,4 @@ namespace Basics
  
         }
     }
- 
- ]
+ }
